@@ -1,0 +1,72 @@
+*{margin: 0; padding: 0;
+margin: 0 auto;
+overflow: hidden;
+}
+.track-name:hover{color: black; font-family: "CopticRevival";}
+@font-face { font-family: "Balkan"; src: url("styles/Balkan.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.fontnew1 { font-family: "Balkan";
+}
+@font-face { font-family: "SoftLine"; src: url("styles/SoftLine.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.fontnew2 { font-family: "SoftLine"; color: greenyellow;
+}
+@font-face { font-family: "CopticRevival"; src: url("styles/CopticRevival.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.fontnew3 { font-family: "CopticRevival";
+}
+p{font-family: "Balkan"}
+.perevod{color: rgb(96, 4, 4);}
+
+#particles-js{width: 100%; 
+height:100vh;
+z-index: -2;
+background-color: rgb(4, 123, 79);
+position: absolute;
+}
+.btn{margin-top: 1rem; 
+font-family: "CopticRevival";
+font-size: .7rem;
+}
+.btn:hover{color: greenyellow;}
+p{text-indent: 1rem; text-align: center;}
+.pokazp1, .pokazp2, .pokazp3, .pokazp4, .pokazp5, .pokazp6, 
+.pokazl1, .pokazl2, .pokazl3, .pokazl4, .pokazl5, .pokazl6
+{margin-top: 2.5rem;}
+.knopa{
+font-size: 1rem;
+height: 16.7%;
+color: greenyellow;
+}
+.obektp{ top: 1%;
+left: 8.5%;
+position: absolute;
+display: none;
+padding: 1rem;
+background-color: rgb(226, 242, 225);
+color: rgb(11, 9, 102);
+font-size: 2rem;
+width: 90%;
+height: 96%;
+border: 1px dashed rgb(223, 226, 59);
+border-radius: 1rem;
+}
+.obektl{ top: 1%;
+left: .5%;
+position: absolute;
+display: none;
+padding: 1rem;
+background-color: rgb(201, 206, 227);
+color: rgb(7, 82, 40);
+font-size: 2rem;
+width: 90%;
+height: 96%;
+border: 1px dashed rgb(223, 226, 59);
+border-radius: 1rem;
+}
+
+.picture{
+display: inline-block;
+width: 60px;
+height: 33px;
+}
+img { width: 62px; }
+img:hover { box-shadow: 2px 2px 2px 2px rgb(110, 112, 13);}
+
