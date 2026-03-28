@@ -1,0 +1,42 @@
+.knopzg{
+color: rgb(211, 220, 245);
+text-align: center;
+font-size: 1.3rem;
+}
+.knoptx{ 
+margin-top: 1rem;
+height: 8%;
+color: greenyellow;
+}
+
+.pokazl1, .pokazl2, .pokazl3, 
+.pokazl4, .pokazl5, .pokazl6,
+.pokazl7
+{
+font-size: .6rem;
+margin-top: 1rem;
+}
+.ubratl1, .ubratl2, .ubratl3,
+.ubratl4, .ubratl5, .ubratl6,
+.ubratl7
+{
+font-size: .6rem;
+margin-top: .2rem;
+}
+
+.knopt{ 
+margin-top: 3rem;
+color: rgb(211, 220, 245);
+}
+.albvid{
+color: white;
+margin-top: 2.5rem;
+padding: .4rem;
+border: 1px dashed rgb(223, 226, 59);
+border-radius: 1rem;
+background-color: transparent;
+}
+#particles-js{
+background-color: rgb(16, 57, 152);
+}
+

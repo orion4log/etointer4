@@ -61,7 +61,8 @@ height: 96%;
 border: 1px dashed rgb(223, 226, 59);
 border-radius: 1rem;
 }
-
+.etoima{color: rgb(163, 163, 229);}
+.etopodp{font-size: .8rem;}
 .picture{
 display: inline-block;
 width: 60px;
@@ -69,4 +70,25 @@ height: 33px;
 }
 img { width: 62px; }
 img:hover { box-shadow: 2px 2px 2px 2px rgb(110, 112, 13);}
+
+.no-break { white-space: nowrap; }
+
+.stopmus{
+color: black;
+animation: 3.5s in-out-tv infinite;
+}
+@keyframes in-out-tv {
+    0% { color: #000; }
+    50% { color: white; }
+    100% { color: #000;  }
+}
+.stopmust{
+color: white;
+animation: 3.5s in-out-tvt infinite;
+}
+@keyframes in-out-tvt {
+    0% { color: white }
+    50% { color: black }
+    100% { color: white  }
+}
 
