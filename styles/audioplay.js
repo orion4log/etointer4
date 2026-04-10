@@ -38,22 +38,58 @@ let track_list = [
     path: "music/sempre.mp3",
   },
   {
+    name: "Je suis à toi (Lara Fabian)",
+    artist: "",
+    image: "music/pic21.jpg",
+    path: "music2/Etjesuistoi.mp3",
+  },
+  {
+    name: "E fu subito amore",
+    artist: "",
+    image: "music/pic22.jpg",
+    path: "music2/EfuSubitoAmore.mp3",
+  },
+  {
+    name: "Meditando",
+    artist: "",
+    image: "music/pic23.jpg",
+    path: "music2/Meditando.mp3",
+  },
+  {
+    name: "Io ti cerco",
+    artist: "",
+    image: "music/pic24.jpg",
+    path: "music2/IoTiCerco.mp3",
+  },
+  {
+    name: "Al ritmo di beguine (Ti amo)",
+    artist: "",
+    image: "music/pic26.jpg",
+    path: "music2/AlTiamo.mp3",
+  },
+  {
     name: "Che Angelo Sei",
     artist: "",
-    image: "music/pic04.jpg",
+    image: "music/pic44.jpg",
     path: "music/cheangelo.mp3",
   },
   {
     name: "Sharazan",
     artist: "",
-    image: "music/pic05.jpg",
+    image: "music/pic45.jpg",
     path: "music/sharazan.mp3",
   },
   {
     name: "Tu soltanto tu",
     artist: "",
-    image: "music/pic06.jpg",
+    image: "music/pic46.jpg",
     path: "music/tusoltantotu.mp3",
+  },
+  {
+    name: "Domani, domani",
+    artist: "",
+    image: "music/pic25.jpg",
+    path: "music2/AlDomani.mp3",
   },
 ];
 

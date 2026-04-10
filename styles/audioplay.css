@@ -2,12 +2,12 @@
   background-color: lightgreen;
   /* Smoothly transition the background color */
   transition: background-color .5s;
-  height: 38vh;
+  height: 32vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-margin: .3rem;
+margin: .1rem;
 border: 3px solid rgb(35, 101, 22);
 border-radius: 1rem;
 }
@@ -49,8 +49,8 @@ border-radius: 1rem;
   opacity: 1.0;
 }
 .slider_container {
-  width: 75%;
-  max-width: 400px;
+  width: 95%;
+  max-width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,16 +81,16 @@ border-radius: 1rem;
   opacity: 1.0;
 }
 .seek_slider {
-  width: 50%;
+  width: 75%;
 }
 .volume_slider {
   width: 80%;
 }
 .current-time, .total-duration {
-  padding: 10px;
+  padding: 2px;
 }
 i.fa-volume-down, i.fa-volume-up {
-  padding: 10px;
+  padding: 2px;
 }
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   cursor: pointer;

@@ -1,3 +1,18 @@
+function zapusk1(){ 
+jQuery('#blkmus1').show();
+jQuery('#blkmus2').hide();
+jQuery('#blkmus0').hide();
+$('#nab1').css({color: "lightblue"}); 
+$('#nab2').css({color: "red"});
+} 
+function zapusk2(){ 
+jQuery('#blkmus1').hide();
+jQuery('#blkmus2').show();
+jQuery('#blkmus0').hide();
+$('#nab1').css({color: "red"}); 
+$('#nab2').css({color: "lightblue"});
+} 
+
 $(document).ready(function(){ 
     $(".ubratp1").click(function(){
         $(".pr1").hide();

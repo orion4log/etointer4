@@ -92,3 +92,11 @@ animation: 3.5s in-out-tvt infinite;
     100% { color: white  }
 }
 
+#blkmus0{margin-top: 1rem;
+color: rgb(217, 244, 177);
+font-size: 1.2rem;
+padding: .5rem;
+}
+#blkmus1{display: none;}
+#blkmus2{display: none;}
+
