@@ -28,9 +28,9 @@ margin-top: .2rem;
 margin-top: 3rem;
 color: rgb(211, 220, 245);
 }
-.albvid{
+.albvid{ font-size: 11px;
 color: white;
-margin-top: 2.5rem;
+margin-top: .2rem;
 padding: .4rem;
 border: 1px dashed rgb(223, 226, 59);
 border-radius: 1rem;
