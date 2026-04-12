@@ -2,6 +2,7 @@ function zapusk1(){
 jQuery('#blkmus1').show();
 jQuery('#blkmus2').hide();
 jQuery('#blkmus0').hide();
+jQuery('#nab0').show();
 $('#nab1').css({color: "lightblue"}); 
 $('#nab2').css({color: "red"});
 } 
@@ -9,10 +10,20 @@ function zapusk2(){
 jQuery('#blkmus1').hide();
 jQuery('#blkmus2').show();
 jQuery('#blkmus0').hide();
+jQuery('#nab0').show();
 $('#nab1').css({color: "red"}); 
 $('#nab2').css({color: "lightblue"});
 } 
-
+jQuery('#nab0').hide();
+function zapusk0(){ 
+jQuery('#blkmus1').hide();
+jQuery('#blkmus2').hide();
+jQuery('#blkmus0').show();
+jQuery('#nab0').hide();
+$('#nab1').css({color: "white"}); 
+$('#nab2').css({color: "white"});
+}
+   
 $(document).ready(function(){ 
     $(".ubratp1").click(function(){
         $(".pr1").hide();

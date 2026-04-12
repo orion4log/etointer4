@@ -56,6 +56,12 @@ let track_list = [
     path: "music2/Meditando.mp3",
   },
   {
+    name: "Prima Notte D'amore",
+    artist: "",
+    image: "music/pic53.jpg",
+    path: "music2/PyanoMio.mp3",
+  },
+  {
     name: "Io ti cerco",
     artist: "",
     image: "music/pic24.jpg",
@@ -90,6 +96,12 @@ let track_list = [
     artist: "",
     image: "music/pic25.jpg",
     path: "music2/AlDomani.mp3",
+  },
+  {
+    name: "Nostalgia canaglia",
+    artist: "",
+    image: "music/pic55.jpg",
+    path: "music2/Nostalgia.mp3",
   },
 ];
 
